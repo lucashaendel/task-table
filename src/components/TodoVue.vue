@@ -104,7 +104,7 @@ nav li a {
   transition: 0.3s ease-in-out all;
 }
 
-nav li:hover {
+nav li a:hover {
   color: red;
   text-shadow: 0px 0px 15px red;
   transition: 0.3s ease-in-out all;
