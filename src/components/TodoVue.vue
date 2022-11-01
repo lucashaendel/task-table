@@ -101,14 +101,13 @@ nav li a {
   font-size: 1.5em;
   color: white;
   text-transform: uppercase;
-  transition: 1s ease-in-out all;
+  transition: 0.3s ease-in-out all;
 }
 
 nav li:hover {
   color: red;
   text-shadow: 0px 0px 15px red;
-  transform: rotateY(360deg);
-  transition: 1s ease-in-out all;
+  transition: 0.3s ease-in-out all;
 }
 
 .drag-el {
