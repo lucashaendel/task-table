@@ -6,12 +6,12 @@ let boards = reactive([
   {
     id: crypto.randomUUID(),
     name: "board-1",
-    items: [{ id: crypto.randomUUID(), title: "Buen dia Plataforma5" }],
+    items: [{ id: crypto.randomUUID(), title: "First Task" }],
   },
   {
     id: crypto.randomUUID(),
     name: "board-2",
-    items: [{ id: crypto.randomUUID(), title: "AGUANTE EL GRUPO C!!" }],
+    items: [{ id: crypto.randomUUID(), title: "Second Task" }],
   },
 ]);
 function startDrag(evt, boardId, itemId) {
